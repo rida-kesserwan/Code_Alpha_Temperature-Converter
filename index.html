@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Temparature Converter</title>
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+            <h1 class="title">Temperature Converter</h1>
+            <div class="ctn-m">
+            <div class="ctn">
+            <input type="number" id="nb" class="nb-input"/>
+                <select name="tempfrom" id="tempf" class="select-t">
+                    <option value="">Choose a unit to convert from</option>
+                    <option value="C">Celsius (°C)</option>
+                    <option value="F">Fahrenheit (°F)</option>
+                    <option value="K">Kelvin (K)</option>
+                </select>
+                </div>
+                <div class="equal">=</div>
+                <div class="ctn">
+                <div id="result" class="final"></div>
+                <select name="tempto" id="tempt" class="select-t">
+                    <option value="">Choose a unit to convert to</option>
+                    <option value="C">Celsius (°C)</option>
+                    <option value="F">Fahrenheit (°F)</option>
+                    <option value="K">Kelvin (K)</option>
+                </select>
+                </div>
+                </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
